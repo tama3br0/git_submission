@@ -14,7 +14,7 @@ def card_score(card)
     when "J", "Q", "K"
         10
     when "A"
-         1
+         1      
     else
         rank.to_i
     end
